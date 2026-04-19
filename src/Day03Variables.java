@@ -21,19 +21,18 @@ public class Day03Variables{
         long mobile =1234567896L;
         //we can also use  boolean , float .
 
+        String x = "xyz";
         byte a = 28;
-        char b = 0;
+        char b = '@';
         short cd = 12;
 
+        //remember when you use char dont forget to use '' this i mean dont forget to use single quotes
 
-        System.out.print(a);
-        System.out.print(b);
-        System.out.println(cd);
         System.out.println("My name is "+Name);
         System.out.println("I am "+ age + " years old");
         System.out.println("My height is " + Height + " Feet");
         System.out.println("Mobile no :- " + mobile );
-
+        System.out.println("Email:- " +x+cd+a+b+"gmail.com");
 
     }
 }
