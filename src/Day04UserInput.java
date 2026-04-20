@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 //this is necessary otherwise without importing util.Scanner we cant take input from user or we cant use scanner class
 
@@ -47,6 +47,25 @@ public class Day04UserInput{
         System.out.println(b1);
 
         // Always remember to code print part first then use int/float and nextint/nextfloat method orelse you have to enter number first then text will show up if alignment upr niche kroge toh
+
+        //NOTES
+        //sc.nextInt() ------ This fetch only integers from user keyboard immediately stops to fetch if users click space or enter button
+        //Eg :-  Input = 12345 ayush
+        //       output = 12345
+
+        //sc.nextFloat() ------ This fetch decimals and integers from user keyboard immediately stops to fetch if users click space or enter button
+        //Eg :-  Input = 12.256 56
+        //       output = 12.256
+        // similarly for double
+
+        //sc.next() ------ This fetch one String (ek word ya sabdh) from user keyboard immediately stops to fetch if users click space or enter button
+        //Eg :-  Input = Abhay Kumar Gupta
+        //       output = Abhay
+
+        //sc.nextLine() ------ This fetch Strings (words or sentences/poori line) from user keyboard immediately stops to fetch if users enter button
+        //Eg :-  Input = Abhay Kumar Gupta
+        //       output = Abhay Kumar Gupta
+
 
 
         // NOTE FOR ME
