@@ -41,10 +41,10 @@ public class Day04UserInput{
 //        System.out.println(sum2);
 
         // If you want to check whether our output is integer or not use the below given code
-        System.out.println("Please Enter The Output You Got");
-        boolean b1 = sc.hasNextInt();
-        System.out.print("Our output is integer:-");
-        System.out.println(b1);
+//        System.out.println("Please Enter The Output You Got");
+//        boolean b1 = sc.hasNextInt();
+//        System.out.print("Our output is integer:-");
+//        System.out.println(b1);
 
         // Always remember to code print part first then use int/float and nextint/nextfloat method orelse you have to enter number first then text will show up if alignment upr niche kroge toh
 
@@ -69,9 +69,9 @@ public class Day04UserInput{
 
 
         // NOTE FOR ME
-        // here i need to explain about nextInt , hasNextint etc . clearly
+        // here I need to explain about nextInt , hasNextint etc . clearly
         // confusion about do i need to close sc by using [" sc.close(); "] ??
-        // i came to know about the common error faced
+        // i came to know about the common error faced that if i enter text first then i enter numbers program crashes instead of taking that next integer i provided
         // Difference between sc.next() and sc.nextline()
     }
 }
