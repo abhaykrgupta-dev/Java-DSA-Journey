@@ -7,7 +7,7 @@ public class Day07TypesOfOperators{
 
 //        Types Of Operators
 
-//        Arithematic Operators  [ +,-,*,/,%,++,-- ]
+//        Arithmetic Operators  [ +,-,*,/,%,++,-- ]
         int a = 28;
         int b = a + 12;
         int c = 199 - 18;
@@ -32,7 +32,7 @@ public class Day07TypesOfOperators{
 
 //      Comparison Operators [ ==,<,>,<=,>= ]
         System.out.println(" is 28 = 16? "+(a==b));      // the == gives only true or false as a result and is used for comparision
-        System.out.println("is 128 = 128?" +(128==128));
+        System.out.println("is 128 = 128? " +(128==128));
         System.out.println(" is 1999 greater than 9995? "+(1999>9995));
         System.out.println(" is 2589 less than 8567 ? "+(2589<8567));
 
@@ -44,6 +44,7 @@ public class Day07TypesOfOperators{
         // if both false then
         System.out.println( 68>56 && 109>996);
         System.out.println(168<999 && 56 <123);
+        System.out.println(559>1036 && 99>102);
 
     // The or method "||"
         // Simply means if any one from both are true then output Is Also true
