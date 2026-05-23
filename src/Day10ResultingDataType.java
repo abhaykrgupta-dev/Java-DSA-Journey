@@ -67,6 +67,5 @@ public class Day10ResultingDataType {
                                               // but you will find out there is no error and this is called explicit casting
 
 
-
     }
 }
