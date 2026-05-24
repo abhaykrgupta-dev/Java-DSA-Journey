@@ -30,11 +30,30 @@ public class Day07TypesOfOperators{
 
         System.out.println(p);
 
+        // Unary OPERATORS
+        // these operators usually requires only one value to be declared
+        int numb = 105;
+        numb++;                     // '++' means 105 is added or enhanced by 1
+        System.out.println(numb);
+
+//        A new concept
+        int num = 128;
+        System.out.println(num++);   // [129]  // by this we instructed java to first print num and after that add 1 and store it
+        System.out.println(num);     // [129]  // now if we try to print num we already know that previously num was enhanced by using ++ so we will get the enhanced output
+                                               // simply remember that here we instructed to first print the num then enhanced is as we wrote ++ after num
+        int number = 92;
+        System.out.println(++number);  // [92] // by using ++ before numb we are instructing java that first enhance the number by 1 and then print it
+        System.out.println(number);    // [93] // now if we print this we will figure out we will get output as 93 as it was already enhanced previously by suing ++number
+                                               // simply remember that here we instructed java to first enhance the number and print it
+
+//        Similarly we use num-- and --numb for decrement
+
 //      Comparison Operators [ ==,<,>,<=,>= ]
-        System.out.println(" is 28 = 16? "+(a==b));      // the == gives only true or false as a result and is used for comparision
+        System.out.println(" is 28 = 40? "+(a==b));      // the == gives only true or false as a result and is used for comparison
         System.out.println("is 128 = 128? " +(128==128));
         System.out.println(" is 1999 greater than 9995? "+(1999>9995));
         System.out.println(" is 2589 less than 8567 ? "+(2589<8567));
+        // Similarly we use <= and >=
 
 //        Logical Operators [ && , || , ! ]
 
