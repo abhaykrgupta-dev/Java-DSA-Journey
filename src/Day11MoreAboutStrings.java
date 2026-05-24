@@ -41,6 +41,5 @@ public class Day11MoreAboutStrings{
         // always remember substring works like [7 , 12 ) which means 7th index is included but 12th index is not included
         System.out.println(FullName.substring(7 , 12 ));
 
-
     }
 }
