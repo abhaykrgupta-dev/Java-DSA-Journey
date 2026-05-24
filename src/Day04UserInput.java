@@ -10,7 +10,7 @@ public class Day04UserInput{
         // sc is type of variable name , whenever we need to take input from users now we can simply call sc instead of this huge code again
 
 
-        // Let's look at the intergers
+        // Let's look at the integers
 
 //          System.out.println("Enter Your First Number");
 //          int a = sc.nextInt();   // This line clarify that the input should be integer and be stored in variable named 'a'.
@@ -46,11 +46,11 @@ public class Day04UserInput{
 //        System.out.print("Our output is integer:-");
 //        System.out.println(b1);
 
-        // Always remember to code print part first then use int/float and nextint/nextfloat method orelse you have to enter number first then text will show up if alignment upr niche kroge toh
+        // Always remember to code print part first then use int/float and nextint/nextfloat method or else you have to enter number first then text will show up if alignment upr niche hua toh
 
         //NOTES
         //sc.nextInt() ------ This fetch only integers from user keyboard immediately stops to fetch if users click space or enter button
-        //Eg :-  Input = 12345 ayush
+        //Eg :-  Input = 12345 Ayush
         //       output = 12345
 
         //sc.nextFloat() ------ This fetch decimals and integers from user keyboard immediately stops to fetch if users click space or enter button
@@ -58,11 +58,11 @@ public class Day04UserInput{
         //       output = 12.256
         // similarly for double
 
-        //sc.next() ------ This fetch one String (ek word ya sabdh) from user keyboard immediately stops to fetch if users click space or enter button
+        //sc.next() ------ This fetch one String (ek word bass) from user keyboard immediately stops to fetch if users click space or enter button
         //Eg :-  Input = Abhay Kumar Gupta
         //       output = Abhay
 
-        //sc.nextLine() ------ This fetch Strings (words or sentences/poori line) from user keyboard immediately stops to fetch if users enter button
+        //sc.nextLine() ------ This fetch Strings (words or sentences/poori line) from user keyboard immediately stops to fetch if you user enter button
         //Eg :-  Input = Abhay Kumar Gupta
         //       output = Abhay Kumar Gupta
 
@@ -72,6 +72,6 @@ public class Day04UserInput{
         // here I need to explain about nextInt , hasNextint etc . clearly
         // confusion about do i need to close sc by using [" sc.close(); "] ??
         // i came to know about the common error faced that if i enter text first then i enter numbers program crashes instead of taking that next integer i provided
-        // Difference between sc.next() and sc.nextline()
+
     }
 }
