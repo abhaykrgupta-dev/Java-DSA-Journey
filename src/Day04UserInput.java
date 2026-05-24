@@ -73,5 +73,6 @@ public class Day04UserInput{
         // confusion about do i need to close sc by using [" sc.close(); "] ??
         // i came to know about the common error faced that if i enter text first then i enter numbers program crashes instead of taking that next integer i provided
 
+
     }
 }
