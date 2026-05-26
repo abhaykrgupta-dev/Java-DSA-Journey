@@ -15,7 +15,7 @@ public class Day15WaysOfPrintingOutput {
         System.out.print("50\n51\n52\n53\n54\n55\n");
 
 //        Simple Task
-//        Print the above
+//        Print the design given below
 //        *
 //        **
 //        ***
