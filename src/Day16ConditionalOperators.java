@@ -93,5 +93,6 @@ public class Day16ConditionalOperators {
         // here first a==b will be checked if false the else if condition will be checked i.e a>b if false a<b will be checked
         // but agr bich mai koi condition true hojae toh java will stop checking further below written statements
 
+
     }
 }
