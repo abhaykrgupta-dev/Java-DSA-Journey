@@ -60,5 +60,18 @@ public class Day18Loops{
 //      in while loop it checks for the condition first then print our statements but in do while loop it first print our statement and then it checks for the condition
 
 
+
+//        Concept of infinite loop
+        for ( ; ; ){
+            System.out.println("Hello World");
+        }
+        /*                                              [ THE CONCEPT OF INFINITE LOOP ]
+        * A standard for loop in java requires three parts ( initialization ; condition ; increament/decrement ) . if you skip these and leave it blank
+        * No initialization: java skips creating a counter variable
+        * no condition: java thinks no condition is written so it marks blank space as true
+        * no updation: java skips updating any counter variable .
+        * As this condition is permanently evaluated as true so java will continuously print hello world forever, until we manualy force the program to stop
+        * */
+
     }
 }
