@@ -46,14 +46,25 @@ public class Day21ConceptOfNesting {
             System.out.print("*");
         }
 
-//        Patern:- 2     [ ALTERNATIVE AND MOST EFFECTIVE METHOD ]
+//        Pattern:- 2     [ ALTERNATIVE AND MOST EFFECTIVE METHOD ]
         System.out.println();
-        System.out.println(" ALTERNATIVE OF PATERN 2");
+        System.out.println(" ALTERNATIVE OF PATTERN 2");
         System.out.println();
 
+        for ( int i = 1; i<=r ; i++){
 
-//          i will continue this tomorrow
+            for ( int j = 1; j<=c ; j++ ){
 
+                if ( i==1 || i==r || j==1 || j==c){
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+
+            }
+            System.out.println();
+
+        }
 
 
 //      Pattern:- 3       [ HALF PYRAMID ]
@@ -169,6 +180,14 @@ public class Day21ConceptOfNesting {
         }
 
 
+        /*
+        * SOME IMPORTANT POINTS TO REMEMBER
+        * THERE CAN BE PLENTY OF METHODS FOR PRINTING ONE PATTERN BUT THE ONE WHICH DOES IT IN MINIMAL CODE IS THE ONE WHICH SHOULD BE CONSIDERED
+        * NESTING MEANS USING A LOOP INSIDE A LOOP AND SO ON
+        * GENERALLY i used inside the for loop here represent rows in most case but not in all
+        * similarly j is used to represent columns in most case once again in most case it is not necessary that j should only represent column kinda thing
+        *
+        * */
 
     }
 }
