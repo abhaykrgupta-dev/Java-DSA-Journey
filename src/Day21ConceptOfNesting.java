@@ -105,7 +105,7 @@ public class Day21ConceptOfNesting {
         System.out.println(" INVERTED AND ROTATED HALF PYRAMID ");
         System.out.println();
 
-        for ( int i = 1; i<=n ; i++){
+        for ( int i = n; i>=1 ; i--){
             for ( int j = 1; j<=n-i ; j++){
                 System.out.print(" ");
             }
