@@ -101,6 +101,7 @@ public class Day20PracticeProject_1 {
             l = l+2;
         } while(l<=N);
 
+
         // Method-4
         for (int i = 1; i <= N ; i++){
             if( i % 2 == 0){
